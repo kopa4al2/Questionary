@@ -1,0 +1,14 @@
+.createQuestionForm{
+    border:5px solid #89ddd7;
+    width:500px;
+    margin:auto;
+}
+
+.createQuestionForm .questionInput {
+    width:80%;
+}
+
+.createQuestionForm input{
+   padding:5px;
+    margin:10px 5px 10px 5px;
+}

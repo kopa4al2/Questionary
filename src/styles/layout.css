@@ -1,0 +1,28 @@
+.appHeader {
+    color:#96A5D2;
+    font-weight:bold;
+    font-size:1.4em;
+    width:90%;
+    background-color:#2C4AA4;
+    border:5px solid #030220;
+    border-top:0px;
+    padding:10px;
+    margin:auto;
+    margin-bottom:20px;
+
+}
+.mainContent {
+    height:380px;
+    padding:20px;
+}
+.appFooter {
+    color:#70B9D2;
+    font-size:1.5em;
+    width:95%;
+    border-top:2px solid #7088D0;
+    border-bottom:2px solid #7088D0;
+    margin: auto;
+    margin-top:60px;
+    height:50px;
+    background-color:#01091F;
+}

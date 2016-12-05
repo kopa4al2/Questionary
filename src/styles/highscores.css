@@ -1,0 +1,85 @@
+#highScoresshown ul li {
+    padding:2px;
+    color:#96A5D2;
+    font-size:0.7em;
+    list-style: none;
+}
+
+
+/*ANIMATION*/
+#highScoresshown {
+    transform: translateX(+370px);
+    transition:3s;
+    font-weight: bold;
+    font-size:2em;
+    color:white;
+    padding:30px;
+    right:350px;
+    width:400px;
+    height:400px;
+    margin-top:-200px;
+    position: relative;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.45));
+    border: 3px solid #7088D0;
+}
+#highScoresshown:after, #highScoresshown:before {
+    transition:2s;
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+#highScoresshown:after {
+    transition:3s;
+
+}
+#highScoresshown:before {
+    transition:3s;
+}
+
+#highScores {
+    font-weight: bold;
+    font-size:2em;
+    color:white;
+    text-transform:uppercase;
+    writing-mode: tb-rl; /*VERTIVAL TEXT */
+    transition:2s;
+    padding:30px;
+    right:300px;
+    height:400px;
+    width:300px;
+    margin-top:-200px;
+    position: relative;
+    background: #030220;
+    border: 3px solid rgba(128, 112, 255, 0.54);
+}
+#highScores:after, #highScores:before {
+    transition:2s;
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#highScores:after {
+    transition:2s;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #030220;
+    border-width: 60px;
+    margin-top: -60px;
+}
+#highScores:before {
+    transition:2s;
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: #7088D0;
+    border-width: 63px;
+    margin-top: -63px;
+}

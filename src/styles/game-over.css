@@ -1,0 +1,34 @@
+.willSubmit{
+
+}
+
+/*ANIMATION*/
+.gameOver, .gameOver-shown {
+    font-size:1.2em;
+    font-weight:bold;
+    color:#96A5D2;
+    margin-top:-200px;
+    z-index:1;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.45));
+    padding:30px;
+    border:3px solid rgba(128, 112, 255, 0.54);
+    left:150px;
+    width:400px;
+    height:400px;
+}
+.gameOver-shown{
+
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 3s;
+    transform:translateX(30px);
+
+}
+
+.gameOver{
+    background-color:#030220;
+    transition:3s;
+    transform:translateX(400px);
+}
